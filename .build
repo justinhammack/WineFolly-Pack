@@ -1,0 +1,6 @@
+echo "Please specify the version:"
+read input_variable
+tar -czvf WF-Pack.$input_variable.tar.gz ./
+git add .
+git commit -am 'update to version $input_variable'
+git push
