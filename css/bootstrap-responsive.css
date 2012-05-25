@@ -57,7 +57,7 @@
   display: none !important;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .visible-phone {
     display: inherit !important;
   }
@@ -433,6 +433,7 @@
     width: 32px;
   }
 }
+*/
 
 @media (min-width: 1200px) {
   .row {
